@@ -1,6 +1,6 @@
 # dkc2-recomp
 
-*Donkey Kong Country 2: Diddy's Kong Quest* (USA, Rev 1) recompilado a código nativo con el motor [`snes-recomp`](https://github.com/AlekayDevs/snes-recomp). Este repositorio es el **juego**: su perfil (`games/dkc2_usa.toml`), el C propio que lo mejora y los scripts para empaquetarlo. El recompilador, el runtime y `snes-port` están en el motor.
+*Donkey Kong Country 2: Diddy's Kong Quest* (USA, Rev 1) recompilado a código nativo con el motor [`snes-recomp`](https://github.com/ArgoxDevs/snes-recomp). Este repositorio es el **juego**: su perfil (`games/dkc2_usa.toml`), el C propio que lo mejora y los scripts para empaquetarlo. El recompilador, el runtime y `snes-port` están en el motor.
 
 > **Estado: sin empezar.** Solo existe la base del repositorio. El motor aún no sabe leer ROMs HiROM (la de este juego lo es), y el perfil del juego no está hecho. No hay nada que jugar todavía.
 
@@ -16,7 +16,7 @@ CRC32 `4E2D90F4`: HiROM FastROM de 4 MB con RAM de batería y sin coprocesador (
 
 1. Mapeo HiROM en el motor (`snes-recomp`: `rom.rs` y el bus del runtime).
 2. Perfil `games/dkc2_usa.toml`: entradas, tablas de saltos y punto `[resume]`, comprobados a mano contra la ROM.
-3. `scripts/check.ps1` con pruebas de la ROM, como en [`alttp-recomp`](https://github.com/AlekayDevs/alttp-recomp).
+3. `scripts/check.ps1` con pruebas de la ROM, como en [`alttp-recomp`](https://github.com/ArgoxDevs/alttp-recomp).
 
 ## Comandos
 

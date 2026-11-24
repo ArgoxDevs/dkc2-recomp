@@ -1,6 +1,6 @@
 # dkc2-recomp
 
-*Donkey Kong Country 2: Diddy's Kong Quest* (USA, Rev 1, CRC32 `4E2D90F4`) recompilado con el motor [`snes-recomp`](https://github.com/AlekayDevs/snes-recomp) (repositorio hermano `..\snes-recomp`). Este repositorio es el **juego**: su perfil, el C propio y los scripts. El motor es una herramienta externa y compartida; aquí no se copia su código (solo los binarios ya construidos en la raíz, como en `..\alttp-recomp`).
+*Donkey Kong Country 2: Diddy's Kong Quest* (USA, Rev 1, CRC32 `4E2D90F4`) recompilado con el motor [`snes-recomp`](https://github.com/ArgoxDevs/snes-recomp) (repositorio hermano `..\snes-recomp`). Este repositorio es el **juego**: su perfil, el C propio y los scripts. El motor es una herramienta externa y compartida; aquí no se copia su código (solo los binarios ya construidos en la raíz, como en `..\alttp-recomp`).
 
 **Estado:** solo la base. Falta el mapeo HiROM en el motor y el perfil del juego (ver README.md). La ROM, HiROM de 4 MB sin coprocesador, va en `roms\dkc2_usa.sfc` (ignorada por git).
 
